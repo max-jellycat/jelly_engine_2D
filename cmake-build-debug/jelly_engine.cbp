@@ -82,7 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Core/Engine.cpp">
+			<Option target="jelly_engine"/>
+		</Unit>
+		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Core/Engine.h">
+			<Option target="jelly_engine"/>
+		</Unit>
 		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Main.cpp">
+			<Option target="jelly_engine"/>
+		</Unit>
+		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Utils/Logger.cpp">
+			<Option target="jelly_engine"/>
+		</Unit>
+		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Utils/Logger.h">
 			<Option target="jelly_engine"/>
 		</Unit>
 		<Unit filename="/Users/max/dev/jelly_engine_2D/CMakeLists.txt">

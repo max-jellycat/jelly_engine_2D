@@ -123,6 +123,33 @@ jelly_engine/fast:
 	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/build
 .PHONY : jelly_engine/fast
 
+src/Core/Engine.o: src/Core/Engine.cpp.o
+
+.PHONY : src/Core/Engine.o
+
+# target to build an object file
+src/Core/Engine.cpp.o:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o
+.PHONY : src/Core/Engine.cpp.o
+
+src/Core/Engine.i: src/Core/Engine.cpp.i
+
+.PHONY : src/Core/Engine.i
+
+# target to preprocess a source file
+src/Core/Engine.cpp.i:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.i
+.PHONY : src/Core/Engine.cpp.i
+
+src/Core/Engine.s: src/Core/Engine.cpp.s
+
+.PHONY : src/Core/Engine.s
+
+# target to generate assembly for a file
+src/Core/Engine.cpp.s:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.s
+.PHONY : src/Core/Engine.cpp.s
+
 src/Main.o: src/Main.cpp.o
 
 .PHONY : src/Main.o
@@ -150,6 +177,33 @@ src/Main.cpp.s:
 	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
+src/Utils/Logger.o: src/Utils/Logger.cpp.o
+
+.PHONY : src/Utils/Logger.o
+
+# target to build an object file
+src/Utils/Logger.cpp.o:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o
+.PHONY : src/Utils/Logger.cpp.o
+
+src/Utils/Logger.i: src/Utils/Logger.cpp.i
+
+.PHONY : src/Utils/Logger.i
+
+# target to preprocess a source file
+src/Utils/Logger.cpp.i:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.i
+.PHONY : src/Utils/Logger.cpp.i
+
+src/Utils/Logger.s: src/Utils/Logger.cpp.s
+
+.PHONY : src/Utils/Logger.s
+
+# target to generate assembly for a file
+src/Utils/Logger.cpp.s:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.s
+.PHONY : src/Utils/Logger.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... jelly_engine"
+	@echo "... src/Core/Engine.o"
+	@echo "... src/Core/Engine.i"
+	@echo "... src/Core/Engine.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
+	@echo "... src/Utils/Logger.o"
+	@echo "... src/Utils/Logger.i"
+	@echo "... src/Utils/Logger.s"
 .PHONY : help
 
 

@@ -70,14 +70,44 @@ CMakeFiles/jelly_engine.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jelly_engine.dir/src/Main.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/max/dev/jelly_engine_2D/src/Main.cpp -o CMakeFiles/jelly_engine.dir/src/Main.cpp.s
 
+CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: CMakeFiles/jelly_engine.dir/flags.make
+CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Core/Engine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o -c /Users/max/dev/jelly_engine_2D/src/Core/Engine.cpp
+
+CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/max/dev/jelly_engine_2D/src/Core/Engine.cpp > CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.i
+
+CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/max/dev/jelly_engine_2D/src/Core/Engine.cpp -o CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.s
+
+CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o: CMakeFiles/jelly_engine.dir/flags.make
+CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o: ../src/Utils/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o -c /Users/max/dev/jelly_engine_2D/src/Utils/Logger.cpp
+
+CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/max/dev/jelly_engine_2D/src/Utils/Logger.cpp > CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.i
+
+CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/max/dev/jelly_engine_2D/src/Utils/Logger.cpp -o CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.s
+
 # Object files for target jelly_engine
 jelly_engine_OBJECTS = \
-"CMakeFiles/jelly_engine.dir/src/Main.cpp.o"
+"CMakeFiles/jelly_engine.dir/src/Main.cpp.o" \
+"CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o" \
+"CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o"
 
 # External object files for target jelly_engine
 jelly_engine_EXTERNAL_OBJECTS =
 
 bin/jelly_engine: CMakeFiles/jelly_engine.dir/src/Main.cpp.o
+bin/jelly_engine: CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o
+bin/jelly_engine: CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o
 bin/jelly_engine: CMakeFiles/jelly_engine.dir/build.make
 bin/jelly_engine: /usr/local/lib/libSDL2main.a
 bin/jelly_engine: /usr/local/lib/libSDL2.dylib
@@ -86,7 +116,7 @@ bin/jelly_engine: /usr/local/lib/libSDL2_ttf.dylib
 bin/jelly_engine: /usr/local/lib/libSDL2_image.dylib
 bin/jelly_engine: /usr/local/lib/libSDL2_mixer.dylib
 bin/jelly_engine: CMakeFiles/jelly_engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/jelly_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bin/jelly_engine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jelly_engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
