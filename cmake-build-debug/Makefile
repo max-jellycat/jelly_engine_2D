@@ -204,33 +204,6 @@ src/Main.cpp.s:
 	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
-src/Utils/Logger.o: src/Utils/Logger.cpp.o
-
-.PHONY : src/Utils/Logger.o
-
-# target to build an object file
-src/Utils/Logger.cpp.o:
-	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o
-.PHONY : src/Utils/Logger.cpp.o
-
-src/Utils/Logger.i: src/Utils/Logger.cpp.i
-
-.PHONY : src/Utils/Logger.i
-
-# target to preprocess a source file
-src/Utils/Logger.cpp.i:
-	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.i
-.PHONY : src/Utils/Logger.cpp.i
-
-src/Utils/Logger.s: src/Utils/Logger.cpp.s
-
-.PHONY : src/Utils/Logger.s
-
-# target to generate assembly for a file
-src/Utils/Logger.cpp.s:
-	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.s
-.PHONY : src/Utils/Logger.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,9 +222,6 @@ help:
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
-	@echo "... src/Utils/Logger.o"
-	@echo "... src/Utils/Logger.i"
-	@echo "... src/Utils/Logger.s"
 .PHONY : help
 
 

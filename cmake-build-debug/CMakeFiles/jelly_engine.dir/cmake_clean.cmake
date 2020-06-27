@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o"
   "CMakeFiles/jelly_engine.dir/src/Graphics/TextureManager.cpp.o"
   "CMakeFiles/jelly_engine.dir/src/Main.cpp.o"
-  "CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o"
   "bin/jelly_engine"
   "bin/jelly_engine.pdb"
 )

@@ -5,6 +5,8 @@ CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Constants.h
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Core/Engine.cpp
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Core/Engine.h
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Graphics/TextureManager.h
+CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Physics/Transform.h
+CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Physics/Vector2D.h
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: /usr/local/include/SDL2/SDL.h
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: /usr/local/include/SDL2/SDL_assert.h
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: /usr/local/include/SDL2/SDL_atomic.h
@@ -153,7 +155,4 @@ CMakeFiles/jelly_engine.dir/src/Main.cpp.o: /usr/local/include/SDL2/SDL_version.
 CMakeFiles/jelly_engine.dir/src/Main.cpp.o: /usr/local/include/SDL2/SDL_video.h
 CMakeFiles/jelly_engine.dir/src/Main.cpp.o: /usr/local/include/SDL2/begin_code.h
 CMakeFiles/jelly_engine.dir/src/Main.cpp.o: /usr/local/include/SDL2/close_code.h
-
-CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o: ../src/Utils/Logger.cpp
-CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o: ../src/Utils/Logger.h
 
