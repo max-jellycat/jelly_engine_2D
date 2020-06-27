@@ -1,5 +1,6 @@
 #include "Engine.h"
 #include "../Constants.h"
+#include "../Graphics/TextureManager.h"
 
 Engine* Engine::s_Instance = nullptr;
 
@@ -24,10 +25,22 @@ bool Engine::Init() {
     }
     SDL_Log("Renderer created!..");
 
+    TextureManager::GetInstance()->Load("Heart", "/Users/max/dev/jelly_engine_2D/assets/sprites/heart.png");
+
+    SDL_Log("Game is running...");
     return m_isRunning = true;
 }
 
-bool Engine::Clean() { return false; }
+void Engine::Clean() {
+    TextureManager::GetInstance()->Clean();
+    SDL_DestroyRenderer(m_renderer);
+    SDL_Log("Renderer destroyed!...");
+    SDL_DestroyWindow(m_window);
+    SDL_Log("Window destroyed!...");
+    IMG_Quit();
+    SDL_Quit();
+    SDL_Log("Game killed!");
+}
 
 void Engine::Quit() {
     m_isRunning = false;
@@ -40,6 +53,7 @@ void Engine::Update() {
 void Engine::Render() {
     SDL_SetRenderDrawColor(m_renderer, 44, 62, 80,255);
     SDL_RenderClear(m_renderer);
+    TextureManager::GetInstance()->Draw("Heart", 0, 0, 16, 16);
     SDL_RenderPresent(m_renderer);
 }
 

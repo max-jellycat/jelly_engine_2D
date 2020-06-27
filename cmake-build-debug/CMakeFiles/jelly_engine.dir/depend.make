@@ -4,6 +4,7 @@
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Constants.h
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Core/Engine.cpp
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Core/Engine.h
+CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: ../src/Graphics/TextureManager.h
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: /usr/local/include/SDL2/SDL.h
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: /usr/local/include/SDL2/SDL_assert.h
 CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o: /usr/local/include/SDL2/SDL_atomic.h

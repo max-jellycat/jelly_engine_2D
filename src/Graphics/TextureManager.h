@@ -19,7 +19,7 @@ public:
     }
 
     bool Load(const std::string& id, const std::string& src);
-    void Drop(std::string id);
+    void Drop(const std::string& id);
     void Clean();
-    void Draw(std::string id, int x, int y, int w, int h, SDL_RendererFlip flip = SDL_FLIP_NONE);
+    void Draw(const std::string& id, int x, int y, int width, int height, SDL_RendererFlip flip = SDL_FLIP_NONE);
 };
