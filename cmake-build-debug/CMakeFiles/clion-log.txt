@@ -1,0 +1,34 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/max/dev/jelly_engine_2D
+
+-- CMAKE_BINARY_DIR: /Users/max/dev/jelly_engine_2D/cmake-build-debug
+-- CMAKE_SOURCE_DIR: /Users/max/dev/jelly_engine_2D
+-- CMAKE_COMMAND: /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+-- CMAKE_VERSION: 3.16.5
+-- CMAKE_C_COMPILER: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- CMAKE_PROJECT_NAME: jelly_engine
+-- CMAKE_FINDCMAKE: /Users/max/dev/jelly_engine_2D/CMAKE
+
+-- SOURCE entry point : src/Main.cpp
+
+
+-- FINDING SDL2
+-- SDL2_FOUND: TRUE
+-- SDL2_INCLUDE_DIR:/usr/local/include/SDL2
+-- SDL2_LIBRARY: /usr/local/lib/libSDL2main.a/usr/local/lib/libSDL2.dylib-framework Cocoa
+
+-- FINDING SDL2_IMAGE
+-- SDL2_IMAGE_FOUND: TRUE
+-- SDL2_IMAGE_INCLUDE_DIR: /usr/local/include/SDL2
+-- SDL2_IMAGE_LIBRARY: /usr/local/lib/libSDL2_image.dylib
+
+-- FINDING SDL2TTF
+-- SDL2TTF_FOUND: TRUE
+-- SDL2TTF_INCLUDE_DIR: /usr/local/include/SDL2
+-- SDL2TTF_LIBRARY: /usr/local/lib/libSDL2_ttf.dylib/usr/local/lib/libSDL2_ttf.dylib-framework Cocoa
+
+-- FINDING SDL2Mixer
+-- SDL2Mixer_FOUND: TRUE
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/max/dev/jelly_engine_2D/cmake-build-debug
