@@ -1,9 +1,14 @@
 #pragma once
 
+#include <SDL.h>
+#include <SDL_image.h>
+
 class Engine {
 private:
     static Engine *s_Instance;
     bool m_isRunning;
+    SDL_Window *m_window;
+    SDL_Renderer *m_renderer;
 
 private:
     Engine() = default;
@@ -26,4 +31,5 @@ public:
     void HandleEvents();
 
     inline bool IsRunning() const { return m_isRunning; }
+    inline SDL_Renderer* GetRenderer() const { return m_renderer; }
 };

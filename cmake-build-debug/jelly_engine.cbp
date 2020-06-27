@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Constants.h">
+			<Option target="jelly_engine"/>
+		</Unit>
 		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Core/Engine.cpp">
 			<Option target="jelly_engine"/>
 		</Unit>
