@@ -25,4 +25,5 @@ public:
     void Clean();
 
     void Draw(const std::string &id, int x, int y, int width, int height, SDL_RendererFlip flip = SDL_FLIP_NONE);
+    void DrawFrame(const std::string &id, int x, int y, int width, int height, int row, int frame, SDL_RendererFlip flip = SDL_FLIP_NONE);
 };

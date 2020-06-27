@@ -123,6 +123,33 @@ jelly_engine/fast:
 	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/build
 .PHONY : jelly_engine/fast
 
+src/Characters/Warrior.o: src/Characters/Warrior.cpp.o
+
+.PHONY : src/Characters/Warrior.o
+
+# target to build an object file
+src/Characters/Warrior.cpp.o:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Characters/Warrior.cpp.o
+.PHONY : src/Characters/Warrior.cpp.o
+
+src/Characters/Warrior.i: src/Characters/Warrior.cpp.i
+
+.PHONY : src/Characters/Warrior.i
+
+# target to preprocess a source file
+src/Characters/Warrior.cpp.i:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Characters/Warrior.cpp.i
+.PHONY : src/Characters/Warrior.cpp.i
+
+src/Characters/Warrior.s: src/Characters/Warrior.cpp.s
+
+.PHONY : src/Characters/Warrior.s
+
+# target to generate assembly for a file
+src/Characters/Warrior.cpp.s:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Characters/Warrior.cpp.s
+.PHONY : src/Characters/Warrior.cpp.s
+
 src/Core/Engine.o: src/Core/Engine.cpp.o
 
 .PHONY : src/Core/Engine.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... jelly_engine"
+	@echo "... src/Characters/Warrior.o"
+	@echo "... src/Characters/Warrior.i"
+	@echo "... src/Characters/Warrior.s"
 	@echo "... src/Core/Engine.o"
 	@echo "... src/Core/Engine.i"
 	@echo "... src/Core/Engine.s"

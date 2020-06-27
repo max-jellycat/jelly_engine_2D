@@ -82,6 +82,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Characters/Character.h">
+			<Option target="jelly_engine"/>
+		</Unit>
+		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Characters/Warrior.cpp">
+			<Option target="jelly_engine"/>
+		</Unit>
+		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Characters/Warrior.h">
+			<Option target="jelly_engine"/>
+		</Unit>
 		<Unit filename="/Users/max/dev/jelly_engine_2D/src/Constants.h">
 			<Option target="jelly_engine"/>
 		</Unit>

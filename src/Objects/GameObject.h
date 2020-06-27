@@ -12,7 +12,7 @@ public:
     SDL_RendererFlip Flip;
 
 public:
-    Properties(std::string &textureID, float x, float y, int width, int height, SDL_RendererFlip flip = SDL_FLIP_NONE)
+    Properties(std::string textureID, float x, float y, int width, int height, SDL_RendererFlip flip = SDL_FLIP_NONE)
             : TextureID(textureID), X(x), Y(y), Width(width), Height(height), Flip(flip) {}
 };
 
@@ -31,9 +31,9 @@ public:
 
     virtual ~GameObject() = default;
 
-    void Draw() override = 0;
+    virtual void Draw() = 0;
 
     virtual void Update(float deltaTime) = 0;
 
-    void Clean() override = 0;
+    virtual void Clean() = 0;
 };

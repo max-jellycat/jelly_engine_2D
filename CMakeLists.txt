@@ -14,7 +14,7 @@ project(jelly_engine)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMAKE")
-set(SOURCE_FILES src/Main.cpp src/Core/Engine.cpp src/Core/Engine.h src/Constants.h src/Graphics/TextureManager.cpp src/Graphics/TextureManager.h src/Physics/Vector2D.h src/Physics/Transform.h src/Objects/IObject.h src/Objects/GameObject.h)
+set(SOURCE_FILES src/Main.cpp src/Core/Engine.cpp src/Core/Engine.h src/Constants.h src/Graphics/TextureManager.cpp src/Graphics/TextureManager.h src/Physics/Vector2D.h src/Physics/Transform.h src/Objects/IObject.h src/Objects/GameObject.h src/Characters/Character.h src/Characters/Warrior.cpp src/Characters/Warrior.h)
 
 Message("")
 Message( STATUS "SOURCE entry point : " ${SOURCE_FILES} )
