@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/max/dev/jelly_engine_2D/src/Core/Engine.cpp" "/Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o"
   "/Users/max/dev/jelly_engine_2D/src/Main.cpp" "/Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles/jelly_engine.dir/src/Main.cpp.o"
+  "/Users/max/dev/jelly_engine_2D/src/Utils/Logger.cpp" "/Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles/jelly_engine.dir/src/Utils/Logger.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

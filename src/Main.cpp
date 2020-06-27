@@ -1,6 +1,13 @@
-#include <iostream>
+#include "Core/Engine.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    Engine::GetInstance()->Init();
+
+    while(Engine::GetInstance()->IsRunning()) {
+        Engine::GetInstance()->HandleEvents();
+        Engine::GetInstance()->Update();
+        Engine::GetInstance()->Render();
+    }
+
+    Engine::GetInstance()->Clean();
 }
