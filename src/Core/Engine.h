@@ -20,7 +20,7 @@ public:
 
     bool Init();
 
-    bool Clean();
+    void Clean();
 
     void Quit();
 

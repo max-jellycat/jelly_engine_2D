@@ -150,6 +150,33 @@ src/Core/Engine.cpp.s:
 	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.s
 .PHONY : src/Core/Engine.cpp.s
 
+src/Graphics/TextureManager.o: src/Graphics/TextureManager.cpp.o
+
+.PHONY : src/Graphics/TextureManager.o
+
+# target to build an object file
+src/Graphics/TextureManager.cpp.o:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Graphics/TextureManager.cpp.o
+.PHONY : src/Graphics/TextureManager.cpp.o
+
+src/Graphics/TextureManager.i: src/Graphics/TextureManager.cpp.i
+
+.PHONY : src/Graphics/TextureManager.i
+
+# target to preprocess a source file
+src/Graphics/TextureManager.cpp.i:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Graphics/TextureManager.cpp.i
+.PHONY : src/Graphics/TextureManager.cpp.i
+
+src/Graphics/TextureManager.s: src/Graphics/TextureManager.cpp.s
+
+.PHONY : src/Graphics/TextureManager.s
+
+# target to generate assembly for a file
+src/Graphics/TextureManager.cpp.s:
+	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/src/Graphics/TextureManager.cpp.s
+.PHONY : src/Graphics/TextureManager.cpp.s
+
 src/Main.o: src/Main.cpp.o
 
 .PHONY : src/Main.o
@@ -216,6 +243,9 @@ help:
 	@echo "... src/Core/Engine.o"
 	@echo "... src/Core/Engine.i"
 	@echo "... src/Core/Engine.s"
+	@echo "... src/Graphics/TextureManager.o"
+	@echo "... src/Graphics/TextureManager.i"
+	@echo "... src/Graphics/TextureManager.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
