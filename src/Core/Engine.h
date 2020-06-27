@@ -31,5 +31,6 @@ public:
     void HandleEvents();
 
     inline bool IsRunning() const { return m_isRunning; }
-    inline SDL_Renderer* GetRenderer() const { return m_renderer; }
+
+    inline SDL_Renderer *GetRenderer() const { return m_renderer; }
 };

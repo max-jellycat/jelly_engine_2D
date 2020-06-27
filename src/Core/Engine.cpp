@@ -2,7 +2,7 @@
 #include "../Constants.h"
 #include "../Graphics/TextureManager.h"
 
-Engine* Engine::s_Instance = nullptr;
+Engine *Engine::s_Instance = nullptr;
 
 bool Engine::Init() {
     if (SDL_Init(SDL_INIT_VIDEO) != 0 && IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG) != 0) {
@@ -28,7 +28,7 @@ bool Engine::Init() {
     TextureManager::GetInstance()->Load("Heart", "/Users/max/dev/jelly_engine_2D/assets/sprites/heart.png");
 
     SDL_Log("Game is running...");
-    return m_isRunning = true;
+    return (m_isRunning = true);
 }
 
 void Engine::Clean() {
@@ -51,7 +51,7 @@ void Engine::Update() {
 }
 
 void Engine::Render() {
-    SDL_SetRenderDrawColor(m_renderer, 44, 62, 80,255);
+    SDL_SetRenderDrawColor(m_renderer, 44, 62, 80, 255);
     SDL_RenderClear(m_renderer);
     TextureManager::GetInstance()->Draw("Heart", 0, 0, 16, 16);
     SDL_RenderPresent(m_renderer);
@@ -61,9 +61,11 @@ void Engine::HandleEvents() {
     SDL_Event event;
     SDL_PollEvent(&event);
 
-    switch(event.type) {
+    switch (event.type) {
         case SDL_QUIT:
             Quit();
+            break;
+        default:
             break;
     }
 }
