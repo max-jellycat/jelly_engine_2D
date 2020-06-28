@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/jelly_engine.dir/src/Animation/Animation.cpp.o"
   "CMakeFiles/jelly_engine.dir/src/Characters/Warrior.cpp.o"
   "CMakeFiles/jelly_engine.dir/src/Core/Engine.cpp.o"
   "CMakeFiles/jelly_engine.dir/src/Graphics/TextureManager.cpp.o"
