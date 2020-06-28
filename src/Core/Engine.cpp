@@ -1,9 +1,10 @@
 #include "Engine.h"
 #include "../Constants.h"
 #include "../Graphics/TextureManager.h"
-#include "../Physics/Transform.h"
+#include "../Characters/Warrior.h"
 
 Engine *Engine::s_Instance = nullptr;
+Warrior *player = nullptr;
 
 bool Engine::Init() {
     if (SDL_Init(SDL_INIT_VIDEO) != 0 && IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG) != 0) {
@@ -26,7 +27,9 @@ bool Engine::Init() {
     }
     SDL_Log("Renderer created!..");
 
+    TextureManager::GetInstance()->Load("Warrior", "/Users/max/dev/jelly_engine_2D/assets/sprites/warrior.png");
     TextureManager::GetInstance()->Load("Heart", "/Users/max/dev/jelly_engine_2D/assets/sprites/heart.png");
+    player = new Warrior(new Properties("Warrior", 30, 30, 24, 24));
 
     SDL_Log("Game is running...");
     return (m_isRunning = true);
@@ -48,13 +51,14 @@ void Engine::Quit() {
 }
 
 void Engine::Update() {
-
+    player->Update(0);
 }
 
 void Engine::Render() {
     SDL_SetRenderDrawColor(m_renderer, 44, 62, 80, 255);
     SDL_RenderClear(m_renderer);
-    TextureManager::GetInstance()->Draw("Heart", 0, 0, 16, 16);
+    TextureManager::GetInstance()->Draw("Heart", 100, 100, 16, 16);
+    player->Draw();
     SDL_RenderPresent(m_renderer);
 }
 

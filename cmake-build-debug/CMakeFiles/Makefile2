@@ -74,12 +74,12 @@ clean: CMakeFiles/jelly_engine.dir/clean
 CMakeFiles/jelly_engine.dir/all:
 	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/depend
 	$(MAKE) -f CMakeFiles/jelly_engine.dir/build.make CMakeFiles/jelly_engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target jelly_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target jelly_engine"
 .PHONY : CMakeFiles/jelly_engine.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/jelly_engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/jelly_engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/max/dev/jelly_engine_2D/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/jelly_engine.dir/rule
